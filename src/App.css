@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border-style:dashed;
+}
+
+/* Style the header */
+header {
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+/* Main Container  */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+/* nav, header {
+  order: -1;
+} */
+article {
+  flex: 75%;
+}
+aside {
+  flex: 25%;
+  background-color: #dad4d4f4;
+}
+
+/* Style the footer */
+footer {
+  background-color: #f1f1f1;
+}
