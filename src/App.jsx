@@ -8,11 +8,11 @@ function App() {
         <h1>Document Heading</h1>
       </header>
       <main>
-        <article>
+        <section className='Article'>
           <h2>This is the heading of the main section</h2>
           <p>This is a paragraph of text.</p>
-        </article>
-        <aside>Here is the aside</aside>
+        </section>
+        <section className='aside'>Here is the aside</section>
       </main>
       <footer>
           <p>Copyright &#169; 2017 <a href="/">My Site</a></p>
